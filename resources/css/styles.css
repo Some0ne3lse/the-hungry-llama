@@ -16,8 +16,4 @@ a {
   background-color: #D2ccc3;
 }
 
-@media screen and (max-width: 640px) {
-  .title {
-    font-size: 100px;
-  }
-}
+@media screen and (max-width: 640px) {}
