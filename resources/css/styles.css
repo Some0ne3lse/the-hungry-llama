@@ -1,3 +1,23 @@
 body {
   font-family: Poppins;
+  margin: 0%;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+  background-color: #D2ccc3;
+}
+
+@media screen and (max-width: 640px) {
+  .title {
+    font-size: 100px;
+  }
 }
