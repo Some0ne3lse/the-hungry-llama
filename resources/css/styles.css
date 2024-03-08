@@ -71,8 +71,10 @@ a {
 .hero {
   display: flex;
   flex-direction: column;
+  gap: 25px;
+  padding-top: 50px;
   width: 100svw;
-  height: 100svh;
+  height: 100%;
   background-color: #2A1704;
 }
 
@@ -117,6 +119,9 @@ a {
 
 .other-meals {
   width: 100svw;
+  padding: 20px 0 20px 0;
+  background-color: #DCD6CD;
+
 }
 
 .course-container {
@@ -192,7 +197,7 @@ a {
 @media (max-height: 440px) {
   .hero {
     height: 450px;
-    padding: 75px 0 20px 0;
+    padding: 100px 0 50px 0;
   }
 
   .meals-right-to-left,
@@ -247,13 +252,13 @@ a {
 @media (min-width: 1024px) {
 
   .hero {
-    height: 100svh;
+    height: 50svh;
   }
 
   .meals-right-to-left,
   .meals-left-to-right {
     flex-direction: row;
-    height: 50svh;
+    height: 25svh;
   }
 
   .course-container {
@@ -262,6 +267,7 @@ a {
     width: 50%;
 
   }
+
 
   .description-container {
     width: 50%;
@@ -290,5 +296,22 @@ a {
 
   .phone {
     width: 150px;
+  }
+}
+
+@media (min-width: 1201px) {
+  .hero {
+    height: 100svh;
+  }
+
+  .meals-right-to-left,
+  .meals-left-to-right {
+    flex-direction: row;
+    height: 50svh;
+  }
+
+  .courses {
+    width: auto;
+    height: 100%;
   }
 }
