@@ -1,6 +1,7 @@
 body {
   font-family: Poppins;
   margin: 0%;
+  background-color: #2A1704;
 }
 
 a {
@@ -159,6 +160,35 @@ a {
   background-color: #DCD6CD;
 }
 
+.footer {
+  background-color: #2A1704;
+  color: #C4BCB1;
+  padding: 10px;
+}
+
+.footer-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.address {
+  margin: 0;
+}
+
+.hours {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 15px;
+}
+
+.hours-text {
+  margin: 0%;
+}
+
 @media (min-width: 640px) {
 
   .title {
@@ -223,5 +253,24 @@ a {
   .descriptions {
     width: 60%;
     font-size: 2vw;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .footer-info {
+    flex-direction: row;
+    gap: 10%;
+  }
+
+  .address {
+    width: 200px;
+  }
+
+  .phone {
+    width: 150px;
   }
 }
