@@ -15,7 +15,7 @@ a {
   justify-content: space-around;
   align-items: center;
   height: 50px;
-  width: 100svw;
+  width: 100%;
   background-color: #D2CCC3;
 }
 
@@ -39,7 +39,6 @@ a {
   border: none;
   color: #2A1704;
   background-color: #D2CCC3;
-  width: 100%;
   height: 100%;
 }
 
@@ -75,7 +74,6 @@ a {
   gap: 25px;
   padding-top: 75px;
   padding-bottom: 25px;
-  width: 100svw;
   background-color: #2A1704;
 }
 
