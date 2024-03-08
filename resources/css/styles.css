@@ -2,6 +2,9 @@ body {
   font-family: Poppins;
   margin: 0%;
   background-color: #2A1704;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 a {
@@ -68,11 +71,9 @@ a {
 }
 
 .hero {
-  flex: auto;
   display: flex;
   flex-direction: column;
   gap: 25px;
-  padding-top: 75px;
   padding-bottom: 25px;
   background-color: #2A1704;
 }
@@ -114,11 +115,17 @@ a {
   color: #C4BCB1;
   font-family: Playfair;
   font-size: 2.5vh;
+  text-align: center;
+}
+
+.page-content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
 }
 
 .other-meals {
   height: auto;
-  width: 100svw;
   padding: 20px 0 20px 0;
   background-color: #DCD6CD;
 
@@ -148,7 +155,7 @@ a {
 .descriptions {
   width: 75%;
   height: auto;
-  font-size: 4vw;
+  font-size: 2.5vw;
   text-align: center;
 }
 
@@ -170,6 +177,7 @@ a {
   background-color: #2A1704;
   color: #C4BCB1;
   padding: 10px;
+
 }
 
 .footer-info {
@@ -199,17 +207,6 @@ a {
   .hero {
     padding: 100px 0 50px 0;
   }
-
-  .meals-right-to-left,
-  .meals-left-to-right {
-    display: block;
-    padding: 75px 0 25px 0;
-  }
-
-  .meals-right-to-left {
-    display: flex;
-    flex-direction: column-reverse;
-  }
 }
 
 @media (min-width: 640px) {
@@ -235,6 +232,7 @@ a {
 
   .slogan-and-image {
     width: 50%;
+    padding-top: 30px;
   }
 
   .hero {
@@ -252,7 +250,12 @@ a {
 @media (min-width: 1024px) {
 
   .hero {
-    height: auto;
+    height: 50vh;
+    padding-top: 75px;
+  }
+
+  .slogan-and-image {
+    padding-top: 30px;
   }
 
   .meals-right-to-left,
@@ -271,12 +274,12 @@ a {
 
   .description-container {
     width: 50%;
-    height: 100%;
+    min-height: 100%;
   }
 
   .descriptions {
     width: 60%;
-    font-size: 2vw;
+    font-size: 1.5vw;
   }
 
   .footer {
@@ -301,7 +304,7 @@ a {
 
 @media (min-width: 1201px) {
   .hero {
-    height: 100svh;
+    height: 100vh;
   }
 
   .meals-right-to-left,
