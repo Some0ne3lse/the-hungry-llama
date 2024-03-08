@@ -18,24 +18,69 @@ a {
   background-color: #D2CCC3;
 }
 
+.title {
+  font-size: medium;
+}
+
+
+.menu {
+  display: none;
+}
+
+.dropdown {
+  display: inline-block;
+  position: relative;
+  width: 75px;
+  height: 100%;
+}
+
+.dropdown-button {
+  border: none;
+  color: #2A1704;
+  background-color: #D2CCC3;
+  width: 100%;
+  height: 100%;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  width: 100%;
+  overflow: auto;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a {
+  display: block;
+  color: #C4BCB1;
+  background-color: #2A1704;
+  padding: 5px;
+  text-decoration: none;
+  text-align: center;
+
+}
+
+.dropdown-content a:hover {
+  color: #FFFFFF;
+}
+
 .hero {
   display: flex;
+  flex-direction: column;
   width: 100svw;
   height: 100svh;
   background-color: #2A1704;
 }
 
-.menu {
-  display: flex;
-  gap: 10px;
-}
-
 .logo-container {
+  width: 100%;
+  padding-top: 10%;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 50%;
-  height: 100%;
 }
 
 .logo {
@@ -43,16 +88,17 @@ a {
   width: 60%;
   height: auto;
   border-radius: 15%;
+  margin-top: 15%;
 }
 
 .slogan-and-image {
+  width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 20px;
-  width: 50%;
-  height: 100%;
 }
 
 .main-dish {
@@ -72,17 +118,10 @@ a {
   width: 100svw;
 }
 
-.meals-right-to-left,
-.meals-left-to-right {
+.course-container {
+  padding-top: 15%;
   display: flex;
   width: 100%;
-  background-color: #DCD6CD;
-}
-
-.course-container {
-  display: flex;
-  width: 50%;
-  height: 50svh;
   justify-content: center;
   align-items: center;
 }
@@ -93,110 +132,96 @@ a {
 }
 
 .description-container {
-  width: 50%;
   display: flex;
-  align-items: center;
+  width: 100%;
+  height: 30svh;
   justify-content: center;
+  align-items: center;
 }
 
 .descriptions {
-  width: 60%;
-  font-size: 2vw;
+  width: 75%;
+  font-size: 4vw;
   text-align: center;
 }
 
-
-@media screen and (min-width: 640px) {
-  .dropdown {
-    display: none;
-  }
+.meals-right-to-left {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #DCD6CD;
 }
 
-@media screen and (max-width: 640px) {
+.meals-left-to-right {
+  display: flex;
+  flex-direction: column-reverse;
+  width: 100%;
+  background-color: #DCD6CD;
+}
+
+@media (min-width: 640px) {
 
   .title {
-    font-size: medium;
+    font-size: x-large;
   }
 
-
   .menu {
-    display: none;
+    display: flex;
+    gap: 10px;
   }
 
   .dropdown {
-    display: inline-block;
-    position: relative;
-    width: 75px;
-    height: 100%;
-  }
-
-  .dropdown-button {
-    border: none;
-    color: #2A1704;
-    background-color: #D2CCC3;
-    width: 100%;
-    height: 100%;
-  }
-
-  .dropdown-content {
     display: none;
-    position: absolute;
-    width: 100%;
-    overflow: auto;
-  }
-
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
-
-  .dropdown-content a {
-    display: block;
-    color: #C4BCB1;
-    background-color: #2A1704;
-    padding: 5px;
-    text-decoration: none;
-    text-align: center;
-
-  }
-
-  .dropdown-content a:hover {
-    color: #FFFFFF;
-  }
-
-  .hero {
-    display: flex;
-    flex-direction: column;
   }
 
   .logo-container {
-    width: 100%;
-    padding-top: 10%;
+    width: 50%;
+    height: 100%;
+    padding: 0;
   }
 
   .slogan-and-image {
-    width: 100%;
+    width: 50%;
+  }
+
+  .hero {
+    flex-direction: row;
+    height: 50svh;
+  }
+
+
+  .logo {
+    margin: 0;
+  }
+
+}
+
+@media (min-width: 1024px) {
+
+  .hero {
+    height: 100svh;
+  }
+
+  .meals-right-to-left,
+  .meals-left-to-right {
+    flex-direction: row;
+    height: 50svh;
   }
 
   .course-container {
-    width: 100%;
+
+    padding: 0;
+    width: 50%;
+
   }
 
   .description-container {
-    width: 100%;
+    width: 50%;
+    height: 100%;
   }
 
   .descriptions {
-    width: 75%;
-    font-size: 4vw;
-  }
-
-  .meals-right-to-left {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .meals-left-to-right {
-    display: flex;
-    flex-direction: column-reverse;
+    width: 60%;
+    font-size: 2vw;
   }
 }
