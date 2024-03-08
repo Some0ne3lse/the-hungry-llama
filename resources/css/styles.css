@@ -259,7 +259,7 @@ a {
   .meals-right-to-left,
   .meals-left-to-right {
     flex-direction: row;
-    height: 25svh;
+    height: auto;
   }
 
   .course-container {
