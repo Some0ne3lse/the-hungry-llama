@@ -69,12 +69,13 @@ a {
 }
 
 .hero {
+  flex: auto;
   display: flex;
   flex-direction: column;
   gap: 25px;
-  padding-top: 50px;
+  padding-top: 75px;
+  padding-bottom: 25px;
   width: 100svw;
-  height: 100%;
   background-color: #2A1704;
 }
 
@@ -88,7 +89,7 @@ a {
 
 .logo {
   display: flex;
-  width: 60%;
+  max-width: 60%;
   height: auto;
   border-radius: 15%;
   margin-top: 15%;
@@ -106,7 +107,7 @@ a {
 
 .main-dish {
   display: flex;
-  width: 60%;
+  max-width: 60%;
   height: auto;
   border-radius: 15%;
 }
@@ -114,10 +115,11 @@ a {
 .slogan {
   color: #C4BCB1;
   font-family: Playfair;
-  font-size: 2.5vw;
+  font-size: 2.5vh;
 }
 
 .other-meals {
+  height: auto;
   width: 100svw;
   padding: 20px 0 20px 0;
   background-color: #DCD6CD;
@@ -133,7 +135,7 @@ a {
 }
 
 .courses {
-  width: 50%;
+  max-width: 50%;
   border-radius: 15%;
 }
 
@@ -196,7 +198,6 @@ a {
 
 @media (max-height: 440px) {
   .hero {
-    height: 450px;
     padding: 100px 0 50px 0;
   }
 
@@ -252,7 +253,7 @@ a {
 @media (min-width: 1024px) {
 
   .hero {
-    height: 50svh;
+    height: auto;
   }
 
   .meals-right-to-left,
@@ -310,8 +311,5 @@ a {
     height: 50svh;
   }
 
-  .courses {
-    width: auto;
-    height: 100%;
-  }
+
 }
