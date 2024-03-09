@@ -1,3 +1,5 @@
+/* Global styles */
+
 body {
   font-family: Poppins;
   margin: 0%;
@@ -70,6 +72,85 @@ a {
 .dropdown-content a:hover {
   color: #FFFFFF;
 }
+
+.footer {
+  background-color: #2A1704;
+  color: #C4BCB1;
+  padding: 10px;
+
+}
+
+.footer-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.address {
+  margin: 0;
+}
+
+.hours {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 15px;
+}
+
+.hours-text {
+  margin: 0%;
+}
+
+@media (min-width: 640px) {
+
+  .title {
+    font-size: x-large;
+  }
+
+  .menu {
+    display: flex;
+    gap: 10px;
+  }
+
+  .dropdown {
+    display: none;
+  }
+}
+
+@media (min-width: 1024px) {
+  .description-container {
+    width: 50%;
+    min-height: 100%;
+  }
+
+  .descriptions {
+    width: 60%;
+    font-size: 1.5vw;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .footer-info {
+    flex-direction: row;
+    gap: 10%;
+  }
+
+  .address {
+    width: 200px;
+  }
+
+  .phone {
+    width: 150px;
+  }
+}
+
+/* Mostly index.html styles */
 
 .hero {
   display: flex;
@@ -174,35 +255,7 @@ a {
   background-color: #DCD6CD;
 }
 
-.footer {
-  background-color: #2A1704;
-  color: #C4BCB1;
-  padding: 10px;
 
-}
-
-.footer-info {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.address {
-  margin: 0;
-}
-
-.hours {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding-top: 15px;
-}
-
-.hours-text {
-  margin: 0%;
-}
 
 @media (max-height: 440px) {
   .hero {
@@ -211,19 +264,6 @@ a {
 }
 
 @media (min-width: 640px) {
-
-  .title {
-    font-size: x-large;
-  }
-
-  .menu {
-    display: flex;
-    gap: 10px;
-  }
-
-  .dropdown {
-    display: none;
-  }
 
   .logo-container {
     width: 50%;
@@ -272,35 +312,6 @@ a {
 
   }
 
-
-  .description-container {
-    width: 50%;
-    min-height: 100%;
-  }
-
-  .descriptions {
-    width: 60%;
-    font-size: 1.5vw;
-  }
-
-  .footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-  }
-
-  .footer-info {
-    flex-direction: row;
-    gap: 10%;
-  }
-
-  .address {
-    width: 200px;
-  }
-
-  .phone {
-    width: 150px;
-  }
 }
 
 @media (min-width: 1201px) {
