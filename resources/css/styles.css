@@ -317,8 +317,9 @@ a {
 
 }
 
-/* menu.html only files */
+/* menu.html and about.html files */
 
+.about-container,
 .menu-container {
   display: flex;
   flex: 1;
@@ -333,7 +334,8 @@ a {
   background-size: cover;
 }
 
-.menu-food {
+.menu-food,
+.about-us {
   margin: 10px 0 10px 0;
   padding: 20px;
   background-color: #dcd6cde6;
@@ -343,7 +345,51 @@ a {
 }
 
 @media (min-width: 1201px) {
-  .menu-food {
+
+  .menu-food,
+  .about-us {
     width: 60%;
   }
+}
+
+/* about.html only files */
+
+.family-image-container {
+  display: flex;
+  justify-content: center;
+}
+
+
+.family-image {
+  margin: 10px 0 10px 0;
+  padding: 20px;
+  color: #2A1704;
+  width: 70%;
+  text-align: center;
+}
+
+@media (min-width: 1024px) {
+  .about-container {
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 75px;
+  }
+
+  .about-us {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .family-image {
+    width: 80%;
+    padding-top: 20px;
+  }
+
+  .about-header,
+  .about-text {
+    width: 80%;
+  }
+
 }
