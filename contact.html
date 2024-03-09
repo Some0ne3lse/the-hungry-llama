@@ -60,22 +60,46 @@
   </header>
 
   <body>
-
+    <div class="contact-page">
+      <div class="form-container">
+        <form class="form">
+          <div class="name-container">
+            <label for="name" class="name">First Name</label>
+            <input id="name" type="text" required>
+          </div>
+          <div class="email-container">
+            <label for="email">Email</label>
+            <input id="email" type="email" required>
+          </div>
+          <div class="message-container">
+            <label for="message">Message</label>
+            <textarea name="message" id="message" required class="message"></textarea>
+          </div>
+          <div class="type-container">
+            <select name="type" id="type">
+              <option value="general">General Request</option>
+              <option value="restaurant">Restaurant</option>
+              <option value="office">Office</option>
+            </select>
+          </div>
+          <button class="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="footer-info">
+        <p class="address">
+          1404 Food Road
+        </p>
+        <a href="tel:5553212" class="phone">555-3212</a>
+        <a href="mailto:frontdesk@hungryllama.com" class="mail">frontdesk@hungryllama.com</a>
+      </div>
+      <div class="hours">
+        <p class="hours-text">Opening hours:</p>
+        <p class="hours-text">Sunday To Thursday: 10 - 22</p>
+        <p class="hours-text">Friday To Saturday: 10 - 23</p>
+      </div>
+    </footer>
   </body>
-  <footer class="footer">
-    <div class="footer-info">
-      <p class="address">
-        1404 Food Road
-      </p>
-      <a href="tel:5553212" class="phone">555-3212</a>
-      <a href="mailto:frontdesk@hungryllama.com" class="mail">frontdesk@hungryllama.com</a>
-    </div>
-    <div class="hours">
-      <p class="hours-text">Opening hours:</p>
-      <p class="hours-text">Sunday To Thursday: 10 - 22</p>
-      <p class="hours-text">Friday To Saturday: 10 - 23</p>
-    </div>
-  </footer>
-</body>
 
 </html>
