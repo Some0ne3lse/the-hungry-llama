@@ -508,6 +508,10 @@ a {
     height: 40vh;
   }
 
+  .sidebar-info {
+    width: 45%;
+  }
+
   .form {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
@@ -545,5 +549,9 @@ a {
   .all-the-info {
     height: 60vh;
     width: 70%;
+  }
+
+  .sidebar-info {
+    width: 38%;
   }
 }
