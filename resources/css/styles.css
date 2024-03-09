@@ -419,8 +419,14 @@ a {
   background-size: cover;
 }
 
-.form-container {
+.all-the-info {
   height: 60vh;
+  display: flex;
+  width: 80vw;
+}
+
+.form-container {
+  height: 100%;
   width: 75%;
   background-color: #dcd6cde6;
   display: grid;
@@ -471,4 +477,22 @@ a {
   align-self: baseline;
   grid-row: 5/6;
   grid-column: 2 / 3;
+}
+
+.form-info {
+  display: flex;
+  flex-direction: column;
+  background-color: #2A1704;
+  color: #DCD6CD;
+  height: 100%;
+  width: 25%;
+}
+
+.contact-header {
+  padding: 5%;
+}
+
+.info-text {
+  word-wrap: break-word;
+  padding: 0 5% 0 5%;
 }
