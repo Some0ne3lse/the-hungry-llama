@@ -510,7 +510,18 @@ a {
   grid-column: 1 / 2;
 
 
+  display: inline-block;
+  border: 1px solid black;
+  padding: 1rem 2rem;
+  margin: 0;
+  text-decoration: none;
+  background: #ccc;
+  color: #222;
+  font-family: inherit;
+  font-size: 1rem;
+  line-height: 1;
   -webkit-appearance: none;
+  -moz-appearance: none;
 
 }
 
