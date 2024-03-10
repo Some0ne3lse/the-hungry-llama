@@ -480,6 +480,7 @@ input {
   display: flex;
   flex-direction: column;
   padding-bottom: 5%;
+  overflow: scroll;
 }
 
 .contact-header {
@@ -497,6 +498,7 @@ input {
   width: 100%;
   background-color: #dcd6cde6;
   display: grid;
+  overflow: scroll;
 }
 
 .form {
