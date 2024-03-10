@@ -419,6 +419,7 @@ select {
   background-color: #2a170453;
   height: 100%;
   border-radius: 5px;
+  color: #2A1704;
 }
 
 input {
@@ -531,8 +532,9 @@ input {
 .submit {
   width: 33%;
   background-color: #2a170453;
+  color: #2A1704;
   border: none;
-  box-shadow: 2px 2px 4px black;
+  box-shadow: 2px 2px 4px #2A1704;
   border-radius: 5px;
 }
 
