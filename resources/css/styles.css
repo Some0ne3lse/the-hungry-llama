@@ -33,6 +33,10 @@ a {
   display: none;
 }
 
+.links.active-page {
+  background-color: #867e74;
+}
+
 .dropdown {
   display: inline-block;
   position: relative;
@@ -121,6 +125,10 @@ a {
     font-size: 2em;
   }
 
+  .links.active-page {
+    background-color: #867e74;
+  }
+
   .menu {
     display: flex;
     align-items: center;
@@ -130,6 +138,7 @@ a {
 
   .links {
     display: flex;
+    border-radius: 5px;
     height: 75%;
     width: 67px;
     justify-content: center;
