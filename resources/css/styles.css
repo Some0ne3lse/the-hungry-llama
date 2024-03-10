@@ -85,10 +85,14 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-grow: 1;
 }
 
-.address {
+.address,
+.phone,
+.mail {
   margin: 0;
+  text-align: center;
 }
 
 .hours {
@@ -97,6 +101,7 @@ a {
   justify-content: center;
   align-items: center;
   padding-top: 15px;
+  flex-grow: 2;
 }
 
 .hours-text {
@@ -129,15 +134,15 @@ a {
 
   .footer-info {
     flex-direction: row;
-    gap: 10%;
+    gap: 30px;
   }
 
   .address {
-    width: 200px;
+    width: auto;
   }
 
   .phone {
-    width: 150px;
+    width: auto;
   }
 }
 
