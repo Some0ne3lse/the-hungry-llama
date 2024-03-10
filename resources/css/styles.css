@@ -117,7 +117,22 @@ a {
 
   .menu {
     display: flex;
-    gap: 35px;
+    align-items: center;
+    height: 75%;
+    gap: 24px;
+  }
+
+  .links {
+    display: flex;
+    height: 75%;
+    width: 67px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .links:hover {
+    background-color: #2A1704;
+    color: #C4BCB1;
   }
 
   .dropdown {
