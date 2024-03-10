@@ -431,6 +431,7 @@ a {
   flex-direction: column;
   width: 80%;
   padding: 20px;
+  text-align: center;
 }
 
 .sidebar-info {
@@ -438,6 +439,7 @@ a {
   color: #DCD6CD;
   display: flex;
   flex-direction: column;
+  padding-bottom: 5%;
 }
 
 .contact-header {
@@ -448,7 +450,7 @@ a {
 .info-text {
   word-wrap: break-word;
   margin: 0%;
-  padding: 0 5% 2% 5%;
+  padding: 0 5% 0 5%;
 }
 
 .form-container {
@@ -512,6 +514,7 @@ a {
   .all-the-info {
     flex-direction: row;
     height: 40vh;
+    text-align: start;
   }
 
   .sidebar-info {
