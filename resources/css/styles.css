@@ -336,6 +336,23 @@ a {
 
 /* menu.html and about.html files */
 
+.menu-header {
+  text-decoration: underline;
+}
+
+.all-the-food {
+  border: #2A1704 solid;
+  padding: 10px;
+}
+
+.course-categories {
+  padding-bottom: 20px;
+}
+
+.course-type {
+  text-decoration: underline;
+}
+
 .about-container,
 .menu-container {
   display: flex;
