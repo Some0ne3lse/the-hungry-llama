@@ -508,8 +508,9 @@ a {
   align-self: baseline;
   grid-row: 7/8;
   grid-column: 1 / 2;
+}
 
-
+button {
   display: inline-block;
   border: 1px solid black;
   padding: 1rem 2rem;
@@ -522,7 +523,6 @@ a {
   line-height: 1;
   -webkit-appearance: none;
   -moz-appearance: none;
-
 }
 
 @media (min-width: 1024px) {
