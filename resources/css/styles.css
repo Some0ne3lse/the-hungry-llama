@@ -95,6 +95,12 @@ a {
   text-align: center;
 }
 
+.phone:hover,
+.mail:hover {
+  background-color: #C4BCB1;
+  color: #2A1704;
+}
+
 .hours {
   display: flex;
   flex-direction: column;
@@ -228,6 +234,10 @@ a {
 .menu-link {
   font-size: 3.5vw;
   text-decoration: underline;
+}
+
+.menu-link:hover {
+  color: #64503b;
 }
 
 .other-meals {
