@@ -511,18 +511,10 @@ a {
 }
 
 button {
-  display: inline-block;
-  border: 1px solid black;
-  padding: 1rem 2rem;
-  margin: 0;
-  text-decoration: none;
-  background: #ccc;
-  color: #222;
-  font-family: inherit;
-  font-size: 1rem;
-  line-height: 1;
+  background-color: transparent;
+  border: none;
   -webkit-appearance: none;
-  -moz-appearance: none;
+  border-radius: 0;
 }
 
 @media (min-width: 1024px) {
