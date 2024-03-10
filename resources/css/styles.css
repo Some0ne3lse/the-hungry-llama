@@ -379,6 +379,12 @@ a {
 
 }
 
+/* menu only */
+
+.menu-food {
+  border-radius: 5px;
+}
+
 /* menu.html and about.html files */
 
 .menu-header {
@@ -436,15 +442,20 @@ a {
 .family-image-container {
   display: flex;
   justify-content: center;
+  padding: 20px;
 }
 
 
 .family-image {
   margin: 10px 0 10px 0;
-  padding: 20px;
   color: #2A1704;
   width: 70%;
   text-align: center;
+  border-radius: 5px;
+}
+
+.about-us {
+  border-radius: 5px;
 }
 
 @media (min-width: 1024px) {
@@ -461,9 +472,12 @@ a {
     align-items: center;
   }
 
+  .family-image-container {
+    padding-top: 20px;
+  }
+
   .family-image {
     width: 80%;
-    padding-top: 20px;
   }
 
   .about-header,
@@ -516,6 +530,7 @@ input {
   flex-direction: column;
   padding-bottom: 5%;
   overflow: auto;
+  border-radius: 5px 0 0 5px;
 }
 
 .contact-header {
@@ -534,6 +549,7 @@ input {
   background-color: #dcd6cde6;
   display: grid;
   overflow: auto;
+  border-radius: 0 5px 5px 0;
 }
 
 .form {
