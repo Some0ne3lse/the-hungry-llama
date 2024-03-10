@@ -19,13 +19,13 @@ a {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 50px;
+  height: 60px;
   width: 100%;
   background-color: #D2CCC3;
 }
 
 .title {
-  font-size: medium;
+  font-size: 5vw;
 }
 
 
@@ -111,7 +111,7 @@ a {
 @media (min-width: 640px) {
 
   .title {
-    font-size: x-large;
+    font-size: 3vw;
   }
 
   .menu {
@@ -143,6 +143,10 @@ a {
 
   .phone {
     width: auto;
+  }
+
+  .title {
+    font-size: 2.3vw;
   }
 }
 
@@ -192,25 +196,31 @@ a {
 .slogan {
   color: #C4BCB1;
   font-family: Playfair, sans-serif, serif;
-  font-size: 2.5vh;
+  font-size: 3.5vw;
   text-align: center;
 }
 
 .page-content {
   display: flex;
   flex-direction: column;
+  align-items: center;
   flex: 1;
+  background-color: #DCD6CD;
+
+}
+
+.menu-link {
+  font-size: 3.5vw;
+  text-decoration: underline;
 }
 
 .other-meals {
   height: auto;
   padding: 20px 0 20px 0;
-  background-color: #DCD6CD;
 
 }
 
 .course-container {
-  padding-top: 15%;
   display: flex;
   width: 100%;
   justify-content: center;
@@ -228,6 +238,7 @@ a {
   height: auto;
   justify-content: center;
   align-items: center;
+  padding-bottom: 15%;
 }
 
 .descriptions {
@@ -255,7 +266,7 @@ a {
 
 @media (max-height: 440px) {
   .hero {
-    padding: 100px 0 50px 0;
+    padding: 110px 0 110px 0;
   }
 }
 
@@ -302,8 +313,6 @@ a {
   }
 
   .course-container {
-
-    padding: 0;
     width: 50%;
 
   }
@@ -311,6 +320,7 @@ a {
   .description-container {
     width: 50%;
     min-height: 100%;
+    padding: 0;
   }
 
   .descriptions {
@@ -360,7 +370,7 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 50px;
+  padding-top: 60px;
   background-image: url('../images/background.webp');
   background-repeat: no-repeat;
   background-position: center;
