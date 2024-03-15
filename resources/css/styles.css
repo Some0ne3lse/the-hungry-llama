@@ -303,6 +303,18 @@ a {
   .hero {
     padding: 110px 0 110px 0;
   }
+
+  .logo {
+    height: 90%;
+  }
+
+  .main-dish {
+    height: 80%;
+  }
+
+  .slogan {
+    font-size: 9vh;
+  }
 }
 
 @media (min-width: 640px) {
