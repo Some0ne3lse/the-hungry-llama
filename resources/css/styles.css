@@ -299,7 +299,7 @@ a {
 
 
 
-@media (max-height: 440px) {
+@media (max-height: 540px) {
   .hero {
     padding: 110px 0 110px 0;
   }
